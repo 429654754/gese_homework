@@ -2,24 +2,24 @@
    <div id="leftSide">
        <img src="../assets/left_back.png" class="left-gese"/>
         <div class="title">
-           <a href="#">
+           <router-link to="/Index">
              <img src="../assets/left_title_1.png" />
-           </a>
-           <a href="#">
+           </router-link>
+           <router-link to="/Work">
              <img src="../assets/left_title_2.png" />
-           </a>
-           <a href="#">
+           </router-link>
+           <router-link to="/Station">
              <img src="../assets/left_title_3.png" />
-           </a>
-           <a href="#">
+           </router-link>
+           <router-link to="/About">
              <img src="../assets/left_title_4.png" />
-           </a>
-           <a href="#">
+           </router-link>
+           <router-link to="/Contact">
              <img src="../assets/left_title_5.png" />
-           </a>
-           <a href="#">
+           </router-link>
+           <router-link to="/Recruit">
              <img src="../assets/left_title_6.png" />
-           </a>
+           </router-link>
         </div>
         <div class="clear"></div>
    </div>
@@ -30,6 +30,9 @@
  export default {
    name: 'leftSide',
  }
+
+ var wlh = window.location.href ;
+
  </script>
 
  <!-- Add "scoped" attribute to limit CSS to this component only -->

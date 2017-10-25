@@ -5,7 +5,6 @@
         <div class="right-content">
             <div class="prevue">
                 <p>【阁色惟一】2017 预告</p>
-
             </div>
             <div class="video-list">
                 <div class="video-item">
@@ -14,22 +13,13 @@
                         <a href="#">查看更多&gt</a>
                     </div>
                     <div class="video-content flex">
-                        <div class="video-box">
-                            <div></div>
+                        <a href="#" class="video-box">
+                            <div>
+                                <img src="../assets/17173.png" />
+                                <span class="s-play"></span>
+                            </div>
                             <p>【阁色惟一】名称XXX</p>
-                        </div>
-                        <div class="video-box">
-                            <div></div>
-                            <p>【阁色惟一】名称XXX</p>
-                        </div>
-                        <div class="video-box">
-                            <div></div>
-                            <p>【阁色惟一】名称XXX</p>
-                        </div>
-                        <div class="video-box">
-                            <div></div>
-                            <p>【阁色惟一】名称XXX</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="video-item">
@@ -65,6 +55,8 @@
  </template>
 
  <script>
+
+
  import Foot from './Foot';
  import LeftSide from './LeftSide'
 
@@ -110,12 +102,30 @@
       margin-bottom:30px;
       width:21.2%;
       text-align:center;
+      display:block;
      }
 
      .video-content .video-box>div{
+      position:relative;
       width:100%;
       height:120px;
-      background:#b7b7b7;
       margin-bottom:16px;
+     }
+
+     .video-content .video-box img{
+     width:100%;
+     height:100%;
+     }
+
+     .s-play{
+     width:50px;
+     height:50px;
+     background:url("../assets/play_start.png") no-repeat;
+     position:absolute;
+     top:50%;
+     left:50%;
+     margin-left:-25px;
+     margin-top:-25px;
+     display:none;
      }
  </style>

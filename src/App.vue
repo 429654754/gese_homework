@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <index></index>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import Index from './components/Index';
 import Work from './components/Work';
+import About from './components/About';
+import Contact from './components/Contact';
+import Recruit from './components/Recruit';
+import Station from './components/Station';
+import workMore from './components/workMore';
 
 export default {
   name: 'app',
   components: {
-    Index,Work
+    Index,Work,About,Contact,Recruit,Station,workMore
   }
 }
 </script>

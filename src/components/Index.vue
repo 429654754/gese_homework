@@ -6,21 +6,21 @@
               <img src="../assets/indexLogo.png" />
            </div>
            <div class="title flex">
-              <a href="#">
+              <router-link to="/Work">
                 <img src="../assets/title_1.png" />
-              </a>
-              <a href="#">
+              </router-link>
+              <router-link to="/Station">
                 <img src="../assets/title_2.png" />
-              </a>
-              <a href="#">
+              </router-link>
+              <router-link to="/About">
                 <img src="../assets/title_3.png" />
-              </a>
-              <a href="#">
+              </router-link>
+              <router-link to="/Contact">
                 <img src="../assets/title_4.png" />
-              </a>
-              <a href="#">
+              </router-link>
+              <router-link to="/Recruit">
                 <img src="../assets/title_5.png" />
-              </a>
+              </router-link>
            </div>
            <div class="video-appr">
                 <p class="flex">
